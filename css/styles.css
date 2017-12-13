@@ -1,3 +1,12 @@
 .player-console {
   display: none;
 }
+body{
+  background-image: url(../images/pigdice.jpg);
+}
+.player1 {
+  background-color: #eee;
+}
+.player2 {
+  background-color: #ccc;
+}
