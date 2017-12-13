@@ -72,4 +72,4 @@ $(document).ready(function() {
     player1.playerName=player1Name;
     player2.playerName=player2Name;
 
-  });
+});
