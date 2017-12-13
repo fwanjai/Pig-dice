@@ -40,3 +40,15 @@ Player.prototype.winnerCheck = function () {
     alert(this.playerName + " You are the winner!");
   }
 }
+
+Player.prototype.newGame = function () {
+  this.roll = 0;
+  this.tempscore = 0;
+  this.totalscore = 0;
+  this.playerName ="";
+}
+
+var clearValues = function(){
+  $(".player1Name").val("");
+  $(".player2Name").val("");
+}
